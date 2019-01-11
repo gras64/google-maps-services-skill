@@ -3,34 +3,61 @@
     "skillMetadata": {
         "sections": [
             {
-                "name": "Options << Name of section",
+                "name": "Settings",
                 "fields": [
                     {
-                        "name": "internal_python_variable_name",
+                        "type": "label",
+                        "label": "Each Google Maps Web Service request requires an API key or client ID. API keys are freely available with a Google Account at https://developers.google.com/console. The type of API key you need is a Server key."
+                    },
+                    {
+                        "name": "google_api_key",
                         "type": "text",
-                        "label": "Setting Friendly Display Name",
-                        "value": "",
-                        "placeholder": "demo prompt in the input box"
+                        "label": "Google API key",
+                        "value": ""
                     }
                 ]
             },
             {
-                "name": "Login << Name of another section",
+                "name": "Known locations",
                 "fields": [
                     {
                         "type": "label",
-                        "label": "Just a little bit of extra info for the user to understand following settings"
+                        "label": "Know locations can be work, school, parents or what ever you want"
                     },
                     {
-                        "name": "username",
+                        "name": "poi1name",
                         "type": "text",
-                        "label": "Username",
+                        "label": "Location 1 name",
+                        "value": "Home"
+                    },
+                    {
+                        "name": "poi1adr",
+                        "type": "text",
+                        "label": "Location 1 adress",
                         "value": ""
                     },
                     {
-                        "name": "password",
-                        "type": "password",
-                        "label": "Password",
+                        "name": "poi2name",
+                        "type": "text",
+                        "label": "Location 2 name",
+                        "value": "Work"
+                    },
+                    {
+                        "name": "poi2adr",
+                        "type": "text",
+                        "label": "Location 2 adress",
+                        "value": ""
+                    },
+                    {
+                        "name": "poi3name",
+                        "type": "text",
+                        "label": "Location 3 name",
+                        "value": "Parents"
+                    },
+                    {
+                        "name": "poi3adr",
+                        "type": "text",
+                        "label": "Location 3 adress",
                         "value": ""
                     }
                 ]
