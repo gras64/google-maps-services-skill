@@ -2,7 +2,7 @@ import googlemaps
 from datetime import datetime
 import json
 
-gmaps = googlemaps.Client(key='AIzaSyDH_Ti9v2RXaHg3On8Tnbsqakijpw5Vdpc')
+gmaps = googlemaps.Client(key='')
 
 
 # Request directions via public transit
